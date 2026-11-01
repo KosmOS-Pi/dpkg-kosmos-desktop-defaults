@@ -1,0 +1,15 @@
+Source: kosmos-desktop-defaults
+Section: misc
+Priority: optional
+Maintainer: Matteo Piscitelli <matteo@matteopiscitelli.it>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://kosmos-pi.org
+Rules-Requires-Root: no
+
+Package: kosmos-desktop-defaults
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, xdg-utils, kosmos-plasma-theme
+Description: Default desktop configuration for KosmOS users.
+ Default desktop configuration for KosmOS users..

@@ -1,0 +1,8 @@
+[General]
+UseSystemBell=true
+accentColorFromWallpaper=true
+BrowserApplication=chromium.desktop
+
+[KDE]
+LookAndFeelPackage=org.kosmos-pi.light.desktop
+
