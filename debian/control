@@ -10,6 +10,6 @@ Rules-Requires-Root: no
 Package: kosmos-desktop-defaults
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, xdg-utils, kosmos-plasma-theme
+Depends: ${misc:Depends}, xdg-utils, powerdevil, kwallet6, dolphin, chromium, kwin-x11, kde-config-screenlocker, kosmos-plasma-theme
 Description: Default desktop configuration for KosmOS users.
  Default desktop configuration for KosmOS users..
