@@ -10,6 +10,9 @@ Rules-Requires-Root: no
 Package: kosmos-desktop-defaults
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, xdg-utils, powerdevil, kwallet6, dolphin, chromium, kwin-x11, kde-config-screenlocker, kosmos-plasma-theme
-Description: Default desktop configuration for KosmOS users.
- Default desktop configuration for KosmOS users..
+Depends: ${misc:Depends}, powerdevil, kosmos-plasma-theme,
+Recommends: kwallet6, dolphin, chromium, kwin-x11, libkscreenlocker6,
+Description: Default desktop configuration for KosmOS images
+ System-wide defaults for KDE Plasma (power management, KWallet,
+ screen locker, compositing, default applications), installed in
+ /etc/xdg. Intended for the KosmOS image, not for generic systems.
