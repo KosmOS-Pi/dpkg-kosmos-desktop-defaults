@@ -1,3 +1,9 @@
+kosmos-desktop-defaults (0.2-1~deb13) trixie; urgency=medium
+
+  * Add face.icon defaults for plasma and sddm.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Fri, 06 Nov 2026 13:50:28 +0100
+
 kosmos-desktop-defaults (0.1-1~deb13) trixie; urgency=medium
 
   * First package.
