@@ -1,3 +1,9 @@
+kosmos-desktop-defaults (0.3-1~deb13) trixie; urgency=medium
+
+  * Remove changes from pervious version.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Tue, 10 Nov 2026 13:21:57 +0100
+
 kosmos-desktop-defaults (0.2-1~deb13) trixie; urgency=medium
 
   * Add face.icon defaults for plasma and sddm.
