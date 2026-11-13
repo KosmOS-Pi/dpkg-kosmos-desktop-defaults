@@ -3,15 +3,15 @@ Section: misc
 Priority: optional
 Maintainer: Matteo Piscitelli <matteo@matteopiscitelli.it>
 Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.5.1
+Standards-Version: 4.7.0
 Homepage: https://kosmos-pi.org
 Rules-Requires-Root: no
 
 Package: kosmos-desktop-defaults
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, powerdevil, kosmos-plasma-theme,
-Recommends: kwallet6, dolphin, chromium, kwin-x11, libkscreenlocker6,
+Depends: ${misc:Depends}, powerdevil
+Recommends: kwallet6, dolphin, chromium, kwin-x11, libkscreenlocker6, kosmos-plasma-theme
 Description: Default desktop configuration for KosmOS images
  System-wide defaults for KDE Plasma (power management, KWallet,
  screen locker, compositing, default applications), installed in
